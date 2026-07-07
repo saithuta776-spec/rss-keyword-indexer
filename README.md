@@ -16,7 +16,7 @@ This system serves as a mini "Search Engine" for global news. It collects raw XM
 - `fetch_rss.py`: Retrieves data from web sources and handles SSL/User-Agent security.
 - `parse_xml.py`: Cleans raw XML/HTML and structures data into a clean database.
 - `keyword_analysis.py`: Performs statistical analysis on news trends and keyword hits.
-- `search_tool.py`: A CLI interface to query the indexed database by keywords and receive the news stored on database.
+- `search_tool.py`: A CLI interface to query the indexed database by keywords and receive the latest news stored on local sqlite database.
 
 ## ⚙️ Setup & Installation
 1. Clone the repository:
